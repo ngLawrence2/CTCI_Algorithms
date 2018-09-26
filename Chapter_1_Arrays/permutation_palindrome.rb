@@ -1,3 +1,8 @@
+
+ # Given a string, write a function to check if it is a permutation of a palindrome.
+#  EXAMPLE
+# Input: Tact Coa
+# Output: True (permutations: "taco cat". "atco cta". etc.)
 def permutation_palindrome(string)
   character_counter = Hash.new {|h,k| h[k]=0}
   string.chars.each do |k|
