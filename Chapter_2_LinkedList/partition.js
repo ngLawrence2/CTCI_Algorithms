@@ -5,7 +5,10 @@
 const Node = require('./node.js');
 
 const partition = (head, partition_value) => {
-
+  let current = head;
+  
+  head.printList();
+  return head;
 }
 
 
@@ -16,7 +19,7 @@ const second = new Node(2);
 head.next = second;
 const third = new Node(3);
 second.next = third;
-const fourth = new Node(3);
+const fourth = new Node(0);
 third.next = fourth;
 const fifth = new Node(5);
 fourth.next = fifth;

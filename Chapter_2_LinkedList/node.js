@@ -5,9 +5,10 @@ class Node {
   }
 
   printList() {
-    let current = this.next;
-    while(current!=null) {
-      console.log(current.data);
+    let curr = this;
+    while(curr.next.data !== null) {
+      console.log(curr.next.data);
+      curr = curr.next;
     }
   }
 }
