@@ -4,7 +4,26 @@
 const Node = require('./node.js');
 
 const sum_lists_backward = (n1, n2) => {
-  
+  let result;
+  let result_idx;
+  while(n1.next!== null && n2.next !== null) {
+      if (result === undefined) {
+        result = new Node(n1.next.data + n2.next.data);
+      } else {
+        if(result_idx === undefined) {
+          result_idx = new Node(n1.next.data + n2.next.data);
+          result.next = result_idx;
+        } else {
+          result_idx.next = new Node(n1.next.data + n2.next.data);
+          result_idx = result_idx.next;
+        }
+      }
+      n1 = n1.next;
+      n2 = n2.next;
+  }
+  // console.log("dsa");
+  result.printList();
+  return result;
 }
 
 // input => (7 -> 1 -> 6) + (5 -> 9 -> 2)  = (2 -> 1 -> 9)
@@ -29,6 +48,7 @@ fourth.next = fifth;
 fifth.next = sixth;
 sixth.next = new Node(null);
 
+sum_lists_backward(h,h2);
 
 
 const sum_lists_forward = (n1, n2) => {
