@@ -6,22 +6,48 @@ const Node = require('./node.js');
 
 const partition = (head, partition_value) => {
   let current = head;
-  
-  head.printList();
-  return head;
+  let smaller;
+  let smaller_idx;
+  let bigger;
+  let bigger_idx;
+  while(current!==null) {
+      if(current.data < partition_value) {
+        if(smaller===undefined) {
+          smaller = current;
+          smaller.next = smaller_idx;
+        } else {
+          smaller_idx = current;
+          smaller_idx = smaller_idx.next;
+        }
+      } else {
+        if(bigger === undefined) {
+          bigger = current;
+          bigger.next = bigger_idx;
+        } else {
+          bigger_idx = current;
+          bigger = bigger_idx.next;
+        }
+      }
+      current = current.next;
+  }
+  smaller_idx.next = bigger;
+  return smaller;
 }
 
 
-const h = new Node(null);
+
 const head = new Node(1);
-h.next = head;
 const second = new Node(2);
-head.next = second;
 const third = new Node(3);
-second.next = third;
 const fourth = new Node(0);
-third.next = fourth;
 const fifth = new Node(5);
-fourth.next = fifth;
-fifth.next = new Node(null);
-partition(h, 3);
+head.next = second;
+second.next = third;
+third.next = fourth;
+fourth.next = fifth
+
+// 1 -> 2 -> 3 -> 0 -> 5 , 3
+// 1 -> 2 -> 0 -> 3 -> 5
+
+
+partition(head, 3);

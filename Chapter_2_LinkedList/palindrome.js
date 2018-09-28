@@ -2,16 +2,49 @@
  const Node = require('./node.js');
 
  const palindrome = (head) => {
-   
+   let curr = head;
+   let stack = [];
+   while(curr!==null) {
+     stack.push(curr);
+     curr = curr.next;
+   }
+   let reverse = reverse_linked_list(head);
+   while(reverse!==null && stack.length > 0) {
+     let last = stack.pop();
+     if(reverse.data !== last.data) {
+        console.log(reverse.data + " != " + last.data );
+       return false;
+     }
+     reverse = reverse.next;
+   }
+   if(reverse!==null || stack.length > 0) {
+     console.log("false");
+     return false;
+   }
+   console.log("true");
+   return true;
  }
 
-const h = new Node(null);
+ const reverse_linked_list = head => {
+   let curr = head;
+   let prev = null;
+   let next = null;
+   while(curr !== null) {
+     next = curr.next;
+     curr.next = prev;
+     prev = curr;
+     curr = next ;
+   }
+   return prev;
+ }
+
+
 const first = new Node("m");
 const second = new Node("o");
 const third = new Node("m");
-h.next = first;
+
 first.next = second;
 second.next = third;
-third.next = new Node(null);
+// third.next = new Node("a");
 
-palindrome(h);
+palindrome(first);

@@ -6,8 +6,8 @@ class Node {
 
   printList() {
     let curr = this;
-    while(curr.next.data !== null) {
-      console.log(curr.next.data);
+    while(curr !== null) {
+      console.log(curr.data);
       curr = curr.next;
     }
   }
