@@ -1,5 +1,5 @@
 
-// Given a directed graph, design an algorithm to find out whether there is a route between two nodes. 
+// Given a directed graph, design an algorithm to find out whether there is a route between two nodes.
 const BSTNode = require('./bst_node.js');
 
 const route_between_nodes = (head,target) => {

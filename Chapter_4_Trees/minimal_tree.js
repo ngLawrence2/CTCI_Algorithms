@@ -2,9 +2,6 @@
 // to create a binary search tree with minimal height
 
 const BSTNode = require('./bst_node.js');
-
-
-
 const minimal_tree = array => {
   let mid = Math.floor(array.length/2);
   let middle_element = array[mid];
