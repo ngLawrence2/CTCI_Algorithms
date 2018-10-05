@@ -6,10 +6,10 @@ const Node = require('./node.js');
 
 const partition = (head, partition_value) => {
   let current = head;
-  let smaller;
-  let smaller_idx;
-  let bigger;
-  let bigger_idx;
+  // let smaller;
+  // let smaller_idx;
+  // let bigger;
+  // let bigger_idx;
   while(current!==null) {
       if(current.data < partition_value) {
         if(smaller===undefined) {
