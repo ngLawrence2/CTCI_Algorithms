@@ -1,0 +1,7 @@
+1. Name 5 benefits of HTML5.
+
+    -Legacy/cross browser support
+    - Cleaner code with semantic HTML headers to describe content
+    - Video and Audio support with <video> and <audio>
+    - Smarter Storage with Local storage
+    - Game development and better interactions with canvas tag

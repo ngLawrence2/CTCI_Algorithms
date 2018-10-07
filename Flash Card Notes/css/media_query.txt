@@ -1,0 +1,9 @@
+1. Why are media queries useful?
+
+  - They help with responsive design.
+  - Used to have breakpoints so that certain parts of the design will behave differently on each breakpoints
+
+2. What is mobile-first design? Be as specific as possible.
+
+  - Mobile-first design means designing for mobile before designing for desktop or any other device. (make page display faster on smaller device)
+  - Make changes to CSS for smaller screen sizes
