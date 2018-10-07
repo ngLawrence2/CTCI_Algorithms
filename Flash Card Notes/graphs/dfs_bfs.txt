@@ -1,0 +1,9 @@
+
+1. What are the steps of DFS on a graph?
+
+
+2. What supporting data structure might you use for BFS and DFS, respectively?
+  - BFS (queue)
+  - DFS (stack)
+
+  

@@ -1,0 +1,8 @@
+
+1. Give an example of a use-case for topological sort.
+
+2. What is a difference between topological sort and DFS.
+
+3. On which types of graphs can we do topological sort.
+
+4. What data structure do we use to assist with the topological sort algorithm?
