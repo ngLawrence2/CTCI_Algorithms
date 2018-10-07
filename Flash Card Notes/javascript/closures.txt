@@ -1,3 +1,34 @@
 
 1. What are benefits of a closure?
-  
+
+  - allows a function to access variables from an enclosing scope even after it leaves the scope in which it was declared.
+  - allows data encapsulation ( hiding private variables )
+
+
+2. Formally define a JavaScript closure.
+
+  - A closure is the combination of a function and the lexical environment from which it was declared.
+  - a inner function that has access to the outer(enclosing) function's variables
+
+
+3. Give an example of a closure.
+
+    function sayHi(name) {
+      var msg = `Hi ${name}`;
+
+      function greeting() {
+        console.log(msg);
+      }
+
+      return greeting;
+    }
+
+    var sayHiToJon = sayHi('Jon');
+    console.log(sayHiToJon()); // Hi Jon
+
+
+4. What is data encapsulation?
+
+  - data hiding
+  - implementation details are kept hidden from user
+  - can be achieved by closures
