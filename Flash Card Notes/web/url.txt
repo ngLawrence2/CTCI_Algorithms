@@ -1,0 +1,9 @@
+1. What happens when you type in www.google.com and hit enter?
+
+  - The browser checks the cache for a DNS record to find the corresponding IP address.
+  - If the requested URL is not in the cache, ISP's DNS server initiates a DNS query to find the IP address of the server that hosts the url.
+  - Browser initiates a TCP connection with the server.
+  - The browser sends an HTTP request to the web server.
+  - The server handles the request and sends back a response.
+  - The server sends out an HTTP response.
+  - The browser displays the HTML content. 

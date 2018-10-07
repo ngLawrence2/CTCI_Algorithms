@@ -17,4 +17,15 @@
 
 4. Give a high level overview of an Adjacency List.
 
-5. What benefits do we get from an Adjacency List.
+  - Similar to the Adjacency matrix, but only keep track of edges.
+  - Each vertex keeps a data structure(array, linkedlist , or tree) of a node it is connected to
+  - Each array in the 2D array will have different lengths as each array represents a different vertex and the nodes it is connected to
+
+
+5. What benefits do we get from an Adjacency List?
+
+  - Space complexity is lower ( O(E) where E is the number of edges)
+  - Finding if 2 nodes are connected time complexity is O(V) if using an array/linkedlist and O(LogV) if using a tree, where V is the number of vertices
+  - Finding adjacent nodes time complexity is O(V) where V is the number of vertices
+
+    -
