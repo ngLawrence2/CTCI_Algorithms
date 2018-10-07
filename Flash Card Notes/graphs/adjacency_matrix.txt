@@ -1,0 +1,20 @@
+1. Give a high level overview of an Adjacency Matrix.
+
+  -Two dimensional matrix of size v*v where v is the number of vertices.
+  -In unweighted graph, we can set Matrix[i][j] = 1 if there is an edge and 0 if there is no edge.
+  -In a weighted graph, we can set Matrix[i][j] = weight of edge and default infinity value if there is no edge.
+  -Matrix[i][j] = Matrix[j][i] so we can look at half the graph and have all the edges.
+
+2. If we were only concerned about time complexity, is an Adjacency Matrix efficient? Why/why not?
+
+  -Yes. Reduces run time to just O(v) instead of O(e) where v is the number of vertices and e is the number of edges. (e is nearly v^2).
+  -Time for finding adjacent nodes O(v) where v is the number of edges.
+  -Time for finding if two nodes are connected O(1) + O(v) where v is the number of edges. (can be O(1) if we use more memory to create a hashtable)
+
+3. If we were only concerned about the space complexity, is an Adjacency Matrix efficient? Why/why not?
+
+  -No. The space complexity would be O(v^2). We would have to store a default value on nodes that are not connected as well.
+
+4. Give a high level overview of an Adjacency List.
+
+5. What benefits do we get from an Adjacency List.
