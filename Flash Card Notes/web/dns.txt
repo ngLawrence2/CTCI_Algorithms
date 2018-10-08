@@ -1,3 +1,6 @@
 1. Why do we need a DNS?
 
-  -  
+  - Need to convert human meaningful name(domain name) to a computer meaningful name(IP address)
+  - computers can only recognize IP addresses
+
+   

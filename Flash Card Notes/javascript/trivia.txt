@@ -2,4 +2,13 @@
 
   -Yes.
 
-2. 
+2. What is the difference between the memory heap and the call stack in JavaScript?
+
+  - Memory heap-
+  - Call stack-
+
+3. What is one problem with programming languages that are fully single-threaded?
+
+  -
+
+4. What's the event loop? How does it work?

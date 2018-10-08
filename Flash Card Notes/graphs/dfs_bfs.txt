@@ -7,3 +7,9 @@
   - DFS (stack)
 
 3. What are the steps for BFS on a graph?
+
+  - Create a queue and insert the root into the queue
+  - until the queue is empty
+  - shift a element from the queue
+  - push the shifted elements children into the queue
+  - go on with the next iteration
