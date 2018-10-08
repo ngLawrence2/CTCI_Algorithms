@@ -5,10 +5,12 @@
 2. What is the difference between the memory heap and the call stack in JavaScript?
 
   - Memory heap-
-  - Call stack-
+  - Call stack- data structure that records where in the program we are. Stepping to a function pushes onto the stack. Return from a function pops from the stack. 
 
 3. What is one problem with programming languages that are fully single-threaded?
 
-  -
+  - It can only do one thing at a time because of a single call stack.
 
 4. What's the event loop? How does it work?
+
+    - Event loop

@@ -24,3 +24,7 @@
   -componentWillMount() and componentDidMount() gets called in the mounting phase
   -componentWillMount() - prepare for the first render. We can handle configuration and update our state.
   -componentDidMount() - interact with Native UI. make changes to our state based on how Native UI laid out content
+
+5. Give on explaination for why we have to make AJAX requests in componentDidMount.
+
+  - Data won't be loaded until after the initial render 

@@ -1,8 +1,18 @@
 
 1. Give an example of a use-case for topological sort.
 
+  - A use-case example for topological sort is dependency installation.
+  - For example, a certain dependency requires another dependency and with many dependencies we need to install ones without any dependencies.
+
 2. What is a difference between topological sort and DFS.
+
+  -DFS is an algorithm for traversing or searching a graph or tree.
+  - Topological sort is an algorithm where it sorts the vertices such that every directed edge uv from vertex U to vertex V, U comes before V.
 
 3. On which types of graphs can we do topological sort.
 
+  - directed
+
 4. What data structure do we use to assist with the topological sort algorithm?
+
+    -Queue

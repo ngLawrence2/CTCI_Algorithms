@@ -1,0 +1,6 @@
+1. Explain TCP, and why is it important.
+
+  - TCP- Transmission Control Protocol - made of layers ( Application , Transport, Internet, Network)
+  - Manages the sending and receiving of all data as packets
+  - TCP checks if all packets are received
+  - guaranteed mail service 
