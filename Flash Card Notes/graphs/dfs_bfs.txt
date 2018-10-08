@@ -1,6 +1,11 @@
 
 1. What are the steps of DFS on a graph?
 
+  - Uses a stack and pushes a Vertex on the stack and mark it as visited in a Hash
+  - Take a look at the vertex on the top of the stack
+  - Take a look at all the adjacent unvisited vertices
+  - Pick a adjacent unvisited vertices and push it into the stack and marked it as visited
+  - Repeat until stack is empty
 
 2. What supporting data structure might you use for BFS and DFS, respectively?
   - BFS (queue)

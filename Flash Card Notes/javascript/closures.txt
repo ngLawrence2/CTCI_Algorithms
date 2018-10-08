@@ -32,3 +32,10 @@
   - data hiding
   - implementation details are kept hidden from user
   - can be achieved by closures
+
+
+5. What is a closure? How are they used?
+
+  - A closure is a function that is within a function with access to the outer function's variables
+  - They are used in private variables, partial applications, and currying.
+  

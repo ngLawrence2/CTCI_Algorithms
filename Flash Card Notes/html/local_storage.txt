@@ -1,1 +1,5 @@
 1. What is local storage? How might you use it?
+
+  - Storing data locally within the user's browser.
+  - Use it by calling localStorage.setItem
+  

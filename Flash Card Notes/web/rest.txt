@@ -1,0 +1,21 @@
+1. What are three primary Fielding constraints?
+
+    - Client-Server - network must be made up of clients and servers
+    - Stateless - servers and clients do not need to keep track of each other's state
+    - uniform interface - common language between servers and clients that allows each part to be swapped out or modified without breaking the system
+
+2. What subcontraints make up a Uniform interface?
+
+    - identification and resources
+    - manipulation of resources through representations
+    - self-descriptive messages
+    - hypermedia
+
+3. Walk through an arbitrary example of a RESTful request/response cycle, and describe what makes it RESTful.
+
+
+
+4.  What does it mean to be RESTful?
+
+  -
+  

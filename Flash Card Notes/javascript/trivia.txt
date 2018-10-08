@@ -1,11 +1,11 @@
 1. Is JavaScript a single-threaded language?
 
-  -Yes.
+  -Yes.It has a single call stack and can only do one thing at a time. The browser gives us web APIS that are like threads and we can make calls to.
 
 2. What is the difference between the memory heap and the call stack in JavaScript?
 
-  - Memory heap-
-  - Call stack- data structure that records where in the program we are. Stepping to a function pushes onto the stack. Return from a function pops from the stack. 
+  - Memory heap- portion of memory where dynamically allocated memory resides
+  - Call stack- data structure that records where in the program we are. Stepping to a function pushes onto the stack. Return from a function pops from the stack.
 
 3. What is one problem with programming languages that are fully single-threaded?
 
@@ -13,4 +13,6 @@
 
 4. What's the event loop? How does it work?
 
-    - Event loop
+    - Made of the call stack, web apis, and task queue
+    - Call stack runs normally, web apis take asynchronous calls and passes to task queue when finished
+    - After call stack is empty, task queue can push elements onto the call stack for it to execute.

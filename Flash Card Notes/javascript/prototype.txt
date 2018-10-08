@@ -1,0 +1,22 @@
+1. Give a high level overview of what an object's prototype represents.
+
+  - It is a property within the constructor.
+
+2. What are the differences between the __proto__ and prototype attributes?
+
+  - __proto__ is used to set the prototype
+  - prototype is an object property within the constructor
+
+3. What happens when we do or don't explicitly set an objects prototype?
+
+  - When we do - there is an inheritance
+
+  - When we don't - it has a default prototype that points back to itself.
+
+4. What is an object's default prototype?
+
+  - object with the only property constructor that points back to the function itself
+
+5. What are valid values for an object's prototype?
+
+  - null or an object

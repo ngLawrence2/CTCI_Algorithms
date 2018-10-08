@@ -27,5 +27,3 @@
   - Space complexity is lower ( O(E) where E is the number of edges)
   - Finding if 2 nodes are connected time complexity is O(V) if using an array/linkedlist and O(LogV) if using a tree, where V is the number of vertices
   - Finding adjacent nodes time complexity is O(V) where V is the number of vertices
-
-    -

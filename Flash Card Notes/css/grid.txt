@@ -1,0 +1,6 @@
+1. Give a high level overview of how CSS grids work.
+
+  - two-dimensional grid-based layout system
+  - wrapper class (actual grid) with child
+  - use display grid
+  - use grid-template-column and grid-template-row properties

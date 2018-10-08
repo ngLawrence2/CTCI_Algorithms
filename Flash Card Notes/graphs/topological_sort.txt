@@ -16,3 +16,13 @@
 4. What data structure do we use to assist with the topological sort algorithm?
 
     -Queue
+    
+5. Explain the steps of topological sort.
+
+  - Place all vertices that are independent into a queue
+  - until the queue is empty
+  - shift a vertex from the queue
+  - check all adjacent vertices from the one shifted
+  - delete the dependency of the shifted one at each adjacent vertices
+  - if the adjacent vertices is independent after the deletion  insert into queue
+  - repeat until queue is empty

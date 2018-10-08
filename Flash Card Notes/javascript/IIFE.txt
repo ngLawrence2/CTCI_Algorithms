@@ -1,0 +1,21 @@
+1. When is using an IIFE necessary?
+
+  - when you want to invoke a function immediately after defining it.
+  - enables you to attach private data to a function
+  - creating fresh environments
+  - avoids polluting global namespace
+
+2. What is the syntax for an IIFE?
+
+- (function() {
+      console.log("hello");
+  }());
+
+  - Have surrounding parenthesis around the function
+  - Have final parenthesis to invoke the function
+
+3. What's an IIFE ? When would you use it?
+
+  - IIFE is an immediately invoked function expression.
+  - Use it when you want to attach private data to a function
+  - Have the function run only once

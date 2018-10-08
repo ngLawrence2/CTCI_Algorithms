@@ -21,8 +21,19 @@
 
 5. Describe the levels of connectivity a graph can have.
 
-  
+  - Strongly connected - there is a path from any vertex to any other vertex
+  - Weakly connected - there is not a path from a vertex to another vertex
+
 
 6. What are cycles?
 
+  - A path of edges and vertices wherein a vertex is reachable from itself
+
 7. What are some naive ways we can store and traverse graphs?
+
+  
+
+8. Explain the different ways that graphs can be represented. What are the pros and cons of various ways of representing graphs?
+
+  - Adjacency matrix - fast run time but takes up too much space
+  - Adjacency list - fast run time and takes up little room. If using an array, we need to copy over if we create a new edge.
