@@ -6,4 +6,4 @@
   - BFS (queue)
   - DFS (stack)
 
-  
+3. What are the steps for BFS on a graph?

@@ -1,0 +1,26 @@
+1. In which order do the React lifecycle methods(including the optional ones) run?
+
+  -componentWillMount()
+  -componentDidMount()
+  -componentWillReceiveProps(nextProps)
+  -shouldComponentUpdate(nextProps, nextState)
+  -componentWillUpdate(nextProps, nextState)
+  -componentDidUpdate()
+  -componentWillUnmount()
+
+2. In which lifecycle methods should you make asynchronous fetches for data?
+
+    -componentDidMount
+
+3. In which lifecycle methods can you call setState?
+
+    - componentDidMount() - will render twice, so setState is not used often here
+    - componentDidUpdate() - use with a conditional or there will be an infinite loop
+    - componentWillMount() - calling setState synchronously will not trigger an extra render
+    - componentWillReceiveProps(nextProps) - use setState with comparison of this.props and nextProps to perform state transitions
+
+4. What lifecycle methods get called in the mounting phase? What are the use cases for each of those methods?
+
+  -componentWillMount() and componentDidMount() gets called in the mounting phase
+  -componentWillMount() - prepare for the first render. We can handle configuration and update our state.
+  -componentDidMount() - interact with Native UI. make changes to our state based on how Native UI laid out content
