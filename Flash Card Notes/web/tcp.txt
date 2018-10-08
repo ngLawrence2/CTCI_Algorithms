@@ -3,4 +3,18 @@
   - TCP- Transmission Control Protocol - made of layers ( Application , Transport, Internet, Network)
   - Manages the sending and receiving of all data as packets
   - TCP checks if all packets are received
-  - guaranteed mail service 
+  - guaranteed mail service
+
+2. What is TCP? When is it used? How does it work?
+
+  - TCP is Transmission Control Protocol.
+  - It is used every time you send or receive data.
+  - Every time you receive packets, TCP checks the data.
+
+
+3. What are the benefits of UDP over TCP? What are the shortcomings?
+
+  - UDP has small packet sizes, connectionless, and more control when data is sent out.
+  - UDP does not compensate for lost packets.
+  - will not try to recover from corrupted segments
+  

@@ -1,0 +1,19 @@
+1. Explain the steps of Dijkstra shortest-path algorithm.
+
+  - Create a Map + Heap
+  - Add all vertices into the MapHeap and set the values to infinity
+  - Set the distance from the starting vertex to 0 in the MapHeap
+  - Extract the starting vertex from the MapHeap and update the values of the MapHeap of the distance of the adjacent vertices of the starting vertex (if the distance is shorter)
+  - Have a path map and a distance map
+  - The path math tells us the source and destination
+  - After exploring all the adjacent vertices, do another extract min on the MapHeap
+  - Insert into the distance map the the newly extracted vertex and its distance
+  - Reapeat cheking all the adjacent vertices and checking if ditance is shorter
+  - If changing the values from the MapHeap, also add in the distances that are in the distance map
+  - Repeat until MapHeap is empty
+  - The path map tells us the exact path that leads us to the destination
+  - The distance map tells us the shortest distance of all other vertices
+
+2. What is the time complexity of Dijkstra's algorithm?
+
+  - O(E Log V) - Size of MapHeap is V. Doing extracts E times, where E is the number of Edges and V is the number of vertices

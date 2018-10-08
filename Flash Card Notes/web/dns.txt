@@ -5,4 +5,8 @@
 
 2. How does a DNS work?
 
-    - 
+    - Browser queries DNS resolver for a URL
+    - DNS queries root servers that has all the data
+    - IP address and nameservers are given to the DNS resolver
+    - Servers are queried with the result IP address
+    - Website files are delivered on the user's page.

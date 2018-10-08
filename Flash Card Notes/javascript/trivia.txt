@@ -16,3 +16,27 @@
     - Made of the call stack, web apis, and task queue
     - Call stack runs normally, web apis take asynchronous calls and passes to task queue when finished
     - After call stack is empty, task queue can push elements onto the call stack for it to execute.
+
+5. What is the risk we face when we use == vs ===?
+
+  - == checks with equality with coercion
+
+
+6. When is the value of this evaluated?
+
+  - the value of this is evaluated at run time
+
+
+7. How does use strict affect the value of this?
+
+  - It makes the value of this be the object
+
+
+8. Without use strict, what is the value of this inside a named or anonymous function?
+
+  - global object - window
+
+
+9. What is the value of this in method style syntax?
+
+  - the value of this in method style syntax is the window

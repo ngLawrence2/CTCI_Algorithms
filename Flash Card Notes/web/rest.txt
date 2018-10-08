@@ -13,9 +13,14 @@
 
 3. Walk through an arbitrary example of a RESTful request/response cycle, and describe what makes it RESTful.
 
-
+  - An example of a RESTful is a request to an API.
+  - When requesting data, the client and server are separated.
+  - Client and server does not know each other's state
+  - The api sends back JSON data which can be read through the browser on the client's side.
 
 4.  What does it mean to be RESTful?
 
-  -
-  
+  -It means that it satisfies Fielding constraints.
+  - Client-server
+  - Stateless
+  - Uniform interface
