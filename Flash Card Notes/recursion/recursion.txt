@@ -10,4 +10,15 @@
 3. Describe direct and indirect recursion.
 
   - Direct - The recursive function calls the same function
-  - Indirect - A function x that calls another function y and y calls x directly or indirectly 
+  - Indirect - A function x that calls another function y and y calls x directly or indirectly
+
+4. What is tail call recursion? Why is it helpful, if at all?
+
+  - when a recursive call is the last thing executed by the function
+  - It is better than non tail recursive functions because they can be optimized by the compiler
+  - since the recursive call is the last statement, there is nothing left to do in the current function, so saving the current function's stack frame is no use.
+
+5. Discuss advantages/disadvantages of recursion.
+
+  - advantages - Clean and simple way to write code
+  - disadvantages - takes up greater space because of the call stack
