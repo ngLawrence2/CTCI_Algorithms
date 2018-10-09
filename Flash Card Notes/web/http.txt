@@ -1,0 +1,10 @@
+1. What are common HTTP methods? When are they used, and what do they accomplish?
+
+  - Get - Retrieve information from the server and have no other side effect.
+  - Head - Same as Get, but transfers the status line and header section only
+  - Post - Sending data to the server
+  - Put - Updating data
+  - Delete - Deleting data from the server
+  - Connect - Establish a tunnel to the server
+  - Options - Describes the communication options
+  - Trace - Used to echo the contents of an HTTP Request back to the requester which can be used for debugging purposes 

@@ -1,0 +1,17 @@
+1. What is a state tree in the context of Redux?
+
+  - It is a single JavaScript object keeps track of everything in your application
+
+2. Why don't we want to modify our redux state?
+
+  - State is read only. We can change the state by dispatching actions.
+
+3. What is a pure function? Impure function?
+
+  - Pure - functions whose return value depends solely on the values of their arguments, no side effects, does not modify arguments
+  - Impure - functions whose return value does not depend on their arguments , may have side effects, may modify arguments
+
+4. Describe in detail what a redux reducer is. What makes it a pure function?
+
+    - Redux reducer is a function that takes in the previous state of the app and the action dispatched , and returns the next state of the app.
+    - It depends on the action and the previous state and does not modify arguments.

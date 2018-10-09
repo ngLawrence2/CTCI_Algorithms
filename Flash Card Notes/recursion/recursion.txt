@@ -1,0 +1,13 @@
+1. What is a base case in recursion? Why do we need one? Do we always need one?
+
+    - A base case is a solution that is known in the function and stops the recursion.
+    - We always need one for recursion.
+
+2. What exactly is a Stack Overflow?
+
+  - A stack overflow is when there is too many function calls within the call stack and occurs when base case is never reached in recursion.
+
+3. Describe direct and indirect recursion.
+
+  - Direct - The recursive function calls the same function
+  - Indirect - A function x that calls another function y and y calls x directly or indirectly 

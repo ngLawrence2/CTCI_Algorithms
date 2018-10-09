@@ -40,3 +40,13 @@
 9. What is the value of this in method style syntax?
 
   - the value of this in method style syntax is the window
+
+10. In which phase does hoisting occur?
+
+    -JavaScript compilation
+
+11. What is the difference between function hoisting and variable hoisting?
+
+    - function - functions are completely hoisted(can be called before they are defined)
+    - variable - variables are partially hoisted(var definitions are hoisted, but not its assignments)
+                - const and let are not hoisted
