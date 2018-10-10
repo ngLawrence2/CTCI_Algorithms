@@ -22,3 +22,9 @@
 
   - advantages - Clean and simple way to write code
   - disadvantages - takes up greater space because of the call stack
+
+6. How is memory allocated during recursive function calls?
+
+  - memory for called function is allocated on top of memory allocated to calling function and different copy of local variables is created for each function call.
+
+  

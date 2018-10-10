@@ -50,3 +50,16 @@
     - function - functions are completely hoisted(can be called before they are defined)
     - variable - variables are partially hoisted(var definitions are hoisted, but not its assignments)
                 - const and let are not hoisted
+
+
+12. What does the new keyword do in JavaScript?
+
+  - Creates a new object
+  - Set the object's prototype to the constructor function
+  - Executes the constructor function with this as the newly created object
+  - Returns the created object.
+
+13. What type of function is invoked with the new keyword? What does this function return?
+
+  - Constructor function.
+  - This function returns a new object

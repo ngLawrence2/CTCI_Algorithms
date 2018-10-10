@@ -15,3 +15,11 @@
 
     - Redux reducer is a function that takes in the previous state of the app and the action dispatched , and returns the next state of the app.
     - It depends on the action and the previous state and does not modify arguments.
+
+5. What is the role of the store in Redux?
+
+  - The role of the store in Redux is to store the whole state of the application in a JavaScript object.
+
+6. What does the subscribe method do in Redux?
+
+  - It adds an event listener. It will be called anytime an action is dispatched and some part of the state tree may potentially have changed. 
