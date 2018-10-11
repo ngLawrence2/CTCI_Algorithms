@@ -63,3 +63,11 @@
 
   - Constructor function.
   - This function returns a new object
+
+14. How can you stop event bubbling?
+
+
+15. What is the difference between event.target and event.currentTarget?
+
+
+16. What does stopImmediatePropagation do?

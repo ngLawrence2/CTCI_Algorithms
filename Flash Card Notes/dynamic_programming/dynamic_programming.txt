@@ -1,0 +1,10 @@
+1. What is the difference between Memoization and Tabulation?
+
+    - Memoization - This is a top-down approach and uses recursion.
+    - Tabulation - This is a bottom-up approach and uses iterative to build a table.
+
+2. Why is memoization helpful?
+
+    - It reduces the need to perform work that has already been done in recursion by saving results in a data structure.
+
+  

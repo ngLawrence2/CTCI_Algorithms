@@ -7,4 +7,7 @@
   - Delete - Deleting data from the server
   - Connect - Establish a tunnel to the server
   - Options - Describes the communication options
-  - Trace - Used to echo the contents of an HTTP Request back to the requester which can be used for debugging purposes 
+  - Trace - Used to echo the contents of an HTTP Request back to the requester which can be used for debugging purposes
+
+
+2. What is the difference between HTTP and HTTPS?
