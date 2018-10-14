@@ -66,8 +66,11 @@
 
 14. How can you stop event bubbling?
 
+  - use the function event.stopPropagation()
 
 15. What is the difference between event.target and event.currentTarget?
 
 
 16. What does stopImmediatePropagation do?
+
+  - Stops the rest of the event handlers in the element
